@@ -13,14 +13,14 @@ public class LasagnaTest {
     @DisplayName("Implemented the expectedMinutesInOven method")
     public void implemented_expected_minutes_in_oven() {
         assertThat(new Lasagna().hasMethod("expectedMinutesInOven"))
-                .withFailMessage("Method expectedMinutesInOven must be created")
-                .isTrue();
+        .withFailMessage("Method expectedMinutesInOven must be created")
+        .isTrue();
         assertThat(new Lasagna().isMethodPublic("expectedMinutesInOven"))
-                .withFailMessage("Method expectedMinutesInOven must be public")
-                .isTrue();
+        .withFailMessage("Method expectedMinutesInOven must be public")
+        .isTrue();
         assertThat(new Lasagna().isMethodReturnType(int.class, "expectedMinutesInOven"))
-                .withFailMessage("Method expectedMinutesInOven must return an int")
-                .isTrue();
+        .withFailMessage("Method expectedMinutesInOven must return an int")
+        .isTrue();
     }
 
     @Test
@@ -35,14 +35,14 @@ public class LasagnaTest {
     @DisplayName("Implemented the remainingMinutesInOven method")
     public void implemented_remaining_minutes_in_oven() {
         assertThat(new Lasagna().hasMethod("remainingMinutesInOven", int.class))
-                .withFailMessage("Method remainingMinutesInOven must be created")
-                .isTrue();
+        .withFailMessage("Method remainingMinutesInOven must be created")
+        .isTrue();
         assertThat(new Lasagna().isMethodPublic("remainingMinutesInOven", int.class))
-                .withFailMessage("Method remainingMinutesInOven must be public")
-                .isTrue();
+        .withFailMessage("Method remainingMinutesInOven must be public")
+        .isTrue();
         assertThat(new Lasagna().isMethodReturnType(int.class, "remainingMinutesInOven", int.class))
-                .withFailMessage("Method remainingMinutesInOven must return an int")
-                .isTrue();
+        .withFailMessage("Method remainingMinutesInOven must return an int")
+        .isTrue();
     }
 
     @Test
@@ -57,14 +57,14 @@ public class LasagnaTest {
     @DisplayName("Implemented the preparationTimeInMinutes method")
     public void implemented_preparation_time_in_minutes() {
         assertThat(new Lasagna().hasMethod("preparationTimeInMinutes", int.class))
-                .withFailMessage("Method preparationTimeInMinutes must be created")
-                .isTrue();
+        .withFailMessage("Method preparationTimeInMinutes must be created")
+        .isTrue();
         assertThat(new Lasagna().isMethodPublic("preparationTimeInMinutes", int.class))
-                .withFailMessage("Method preparationTimeInMinutes must be public")
-                .isTrue();
+        .withFailMessage("Method preparationTimeInMinutes must be public")
+        .isTrue();
         assertThat(new Lasagna().isMethodReturnType(int.class, "preparationTimeInMinutes", int.class))
-                .withFailMessage("Method preparationTimeInMinutes must return an int")
-                .isTrue();
+        .withFailMessage("Method preparationTimeInMinutes must return an int")
+        .isTrue();
     }
 
     @Test
@@ -86,14 +86,14 @@ public class LasagnaTest {
     @DisplayName("Implemented the totalTimeInMinutes method")
     public void implemented_total_time_in_minutes() {
         assertThat(new Lasagna().hasMethod("totalTimeInMinutes", int.class, int.class))
-                .withFailMessage("Method totalTimeInMinutes must be created")
-                .isTrue();
+        .withFailMessage("Method totalTimeInMinutes must be created")
+        .isTrue();
         assertThat(new Lasagna().isMethodPublic("totalTimeInMinutes", int.class, int.class))
-                .withFailMessage("Method totalTimeInMinutes must be public")
-                .isTrue();
+        .withFailMessage("Method totalTimeInMinutes must be public")
+        .isTrue();
         assertThat(new Lasagna().isMethodReturnType(int.class, "totalTimeInMinutes", int.class, int.class))
-                .withFailMessage("Method totalTimeInMinutes must return an int")
-                .isTrue();
+        .withFailMessage("Method totalTimeInMinutes must return an int")
+        .isTrue();
     }
 
     @Test

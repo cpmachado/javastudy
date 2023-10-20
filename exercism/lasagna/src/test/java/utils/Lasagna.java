@@ -9,7 +9,7 @@ public class Lasagna extends ReflectionProxy {
 
     public int expectedMinutesInOven() {
         try {
-            return invokeMethod("expectedMinutesInOven", new Class[]{});
+            return invokeMethod("expectedMinutesInOven", new Class[] {});
         } catch (Exception e) {
             throw new UnsupportedOperationException("Please implement the expectedMinutesInOven() method");
         }
@@ -17,7 +17,7 @@ public class Lasagna extends ReflectionProxy {
 
     public int remainingMinutesInOven(int actualMinutes) {
         try {
-            return invokeMethod("remainingMinutesInOven", new Class[]{int.class}, actualMinutes);
+            return invokeMethod("remainingMinutesInOven", new Class[] {int.class}, actualMinutes);
         } catch (Exception e) {
             throw new UnsupportedOperationException("Please implement the remainingMinutesInOven(int) method");
         }
@@ -25,7 +25,7 @@ public class Lasagna extends ReflectionProxy {
 
     public int preparationTimeInMinutes(int amountLayers) {
         try {
-            return invokeMethod("preparationTimeInMinutes", new Class[]{int.class}, amountLayers);
+            return invokeMethod("preparationTimeInMinutes", new Class[] {int.class}, amountLayers);
         } catch (Exception e) {
             throw new UnsupportedOperationException("Please implement the preparationTimeInMinutes(int) method");
         }
@@ -33,7 +33,7 @@ public class Lasagna extends ReflectionProxy {
 
     public int totalTimeInMinutes(int amountLayers, int actualMinutes) {
         try {
-            return invokeMethod("totalTimeInMinutes", new Class[]{int.class, int.class}, amountLayers, actualMinutes);
+            return invokeMethod("totalTimeInMinutes", new Class[] {int.class, int.class}, amountLayers, actualMinutes);
         } catch (Exception e) {
             throw new UnsupportedOperationException("Please implement the totalTimeInMinutes(int, int) method");
         }

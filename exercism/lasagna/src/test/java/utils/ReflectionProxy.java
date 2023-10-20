@@ -159,7 +159,7 @@ public abstract class ReflectionProxy {
     private Constructor<?>[] getAllConstructors() {
         Class<?> targetClass = getTargetClass();
         if (targetClass == null) {
-            return new Constructor<?>[]{};
+            return new Constructor<?>[] {};
         }
         return targetClass.getConstructors();
     }
@@ -381,7 +381,7 @@ public abstract class ReflectionProxy {
      * @return The result of 'toString' from the target instance
      */
     public String toString() {
-        return invokeMethod("toString", new Class[]{ });
+        return invokeMethod("toString", new Class[] { });
     }
 
     /**
