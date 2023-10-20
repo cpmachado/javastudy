@@ -1,6 +1,6 @@
-# rstudy
+# javastudy
 
-My study of R resources.
+My study of Java resources.
 
 ## LICENSE
 
